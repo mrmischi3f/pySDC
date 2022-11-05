@@ -1,8 +1,5 @@
-import sdc
+import unittest
 
-def main():
-    print("Hello world")
-
-
-if __name__ == "__main__":
-    main()
+class TestNoiseMethod(unittest.TestCase):
+    def test(self):
+        pass
