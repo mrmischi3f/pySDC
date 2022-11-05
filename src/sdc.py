@@ -1,5 +1,4 @@
-import dataframe
-from src.dataframe import sdcDataFrame
+from src.dataframe import *
 
 def read_csv(filepath):
     return sdcDataFrame(filepath=filepath)
